@@ -7,6 +7,13 @@ systemctl start nginx
 firewall-cmd --permanent --zone=public --add-service=http
 firewall-cmd --permanent --zone=public --add-service=https
 firewall-cmd --reload
+
+yum -y install mariadb-server mariadb
+systemctl start mariadb
+systemctl enable mariadb
+systemctl status mariadb
+mysql_secure_installation
+
 # https://blog.csdn.net/FungLeo/article/details/78789932
 # https://www.linuxbabe.com/redhat/install-lemp-nginx-mariadb-php7-rhel-8-centos-8
 yum -y install php php-fpm php-gd php-ldap php-mbstring php-odbc php-pear php-xml php-xmlrpc
