@@ -26,3 +26,4 @@ function install_zsh() {
 system_update
 install_gcc
 install_cmake
+install_zsh
