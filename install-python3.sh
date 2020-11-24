@@ -54,7 +54,7 @@ lsb_dist=$( get_distribution )
 lsb_dist="$(echo "$lsb_dist" | tr '[:upper:]' '[:lower:]')"
 
 if [[ ${lsb_dist} != "centos" && ${lsb_dist} != "debian" && ${lsb_dist} != "ubuntu" ]]; then
-    echo [ERROR] CentOS support only.
+    echo [ERROR] CentOS|Debian|Ubuntu support only.
     exit 1
 fi
 
