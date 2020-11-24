@@ -10,7 +10,7 @@ pre_install_centos() {
 
 pre_install_debian() {
     apt-get update
-    apt-get install axel make gcc g++ openssl bzip2 libffi-dev zlib1g-dev \
+    apt-get install -y axel make gcc g++ openssl bzip2 libffi-dev zlib1g-dev \
                          libssl-dev libsqlite3-dev build-essential \
                          libncurses5-dev libgdbm-dev libnss3-dev libreadline-dev curl
 }
