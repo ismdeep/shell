@@ -3,14 +3,14 @@
 usage_info="Usage: bash install-python3.sh PYTHON_VERSION INSTALL_PATH"
 
 pre_install_centos() {
-    sudo yum -y install epel-release gdbm-devel gcc make openssl-devel \
+    yum -y install epel-release gdbm-devel gcc make openssl-devel \
                    sqlite-devel bzip2-devel libffi-devel libuuid-devel \
                    xz-devel ncurses-devel readline-devel tcl-devel tk-devel
 }
 
 pre_install_debian() {
-    sudo apt-get update
-    sudo apt-get install axel make gcc g++ openssl bzip2 libffi-dev zlib1g-dev \
+    apt-get update
+    apt-get install axel make gcc g++ openssl bzip2 libffi-dev zlib1g-dev \
                          libssl-dev libsqlite3-dev build-essential \
                          libncurses5-dev libgdbm-dev libnss3-dev libreadline-dev curl
 }
@@ -53,7 +53,7 @@ get_distribution() {
 lsb_dist=$( get_distribution )
 lsb_dist="$(echo "$lsb_dist" | tr '[:upper:]' '[:lower:]')"
 
-if [[ ${lsb_dist} != "centos" && ${lsb_dist} != "debian" && ${lsb_dist} != "ubuntu" ]]; then
+if [ ${lsb_dist} != "centos" && ${lsb_dist} != "debian" && ${lsb_dist} != "ubuntu" ]; then
     echo [ERROR] "CentOS|Debian|Ubuntu support only."
     exit 1
 fi
@@ -63,13 +63,13 @@ work_dir=`pwd`
 python_version=$1
 install_path=$2
 
-if [[ -z ${python_version} ]]; then
+if [ -z ${python_version} ]; then
     echo Please run with specific python3 version
     echo ${usage_info}
     exit 1
 fi
 
-if [[ -z ${install_path} ]]; then
+if [ -z ${install_path} ]; then
     echo Please run with specific installation path
     echo ${usage_info}
     exit 1
