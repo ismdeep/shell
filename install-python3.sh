@@ -72,3 +72,4 @@ pre_install_centos
 download_python3 ${python_version}
 extract_python3 ${python_version}
 build_and_install_python3 ${python_version} ${install_path}
+echo Your python has been installed under: install_path
