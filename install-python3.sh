@@ -58,6 +58,8 @@ if [ ${lsb_dist} != "centos" ] && [ ${lsb_dist} != "debian" ] && [ ${lsb_dist} !
     exit 1
 fi
 
+# ---------------------------------------------------------------------------------------------------------
+
 work_dir=`pwd`
 
 python_version=$1
@@ -87,6 +89,10 @@ esac
 download_python3 ${python_version}
 extract_python3 ${python_version}
 build_and_install_python3 ${python_version} ${install_path}
+cd ${work_dir}
 rm -rfv Python-${python_version}
 rm Python-${python_version}.tar
+echo 
+echo 
 echo Your python has been installed under: ${install_path}
+echo 
