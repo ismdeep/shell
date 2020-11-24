@@ -3,9 +3,16 @@
 usage_info="Usage: bash install-python3.sh PYTHON_VERSION INSTALL_PATH"
 
 pre_install_centos() {
-    yum -y install epel-release gdbm-devel gcc make openssl-devel \
+    sudo yum -y install epel-release gdbm-devel gcc make openssl-devel \
                    sqlite-devel bzip2-devel libffi-devel libuuid-devel \
                    xz-devel ncurses-devel readline-devel tcl-devel tk-devel
+}
+
+pre_install_debian() {
+    sudo apt-get update
+    sudo apt-get install axel make gcc g++ openssl bzip2 libffi-dev zlib1g-dev \
+                         libssl-dev libsqlite3-dev build-essential \
+                         libncurses5-dev libgdbm-dev libnss3-dev libreadline-dev curl
 }
 
 download_python3() {
@@ -68,8 +75,18 @@ if [[ -z ${install_path} ]]; then
     exit 1
 fi
 
-pre_install_centos
+case "$lsb_dist" in
+    centos )
+        pre_install_centos
+        ;;
+    debian|ubuntu )
+        pre_install_debian
+        ;;
+esac
+
 download_python3 ${python_version}
 extract_python3 ${python_version}
 build_and_install_python3 ${python_version} ${install_path}
-echo Your python has been installed under: install_path
+rm -rfv Python-${python_version}
+rm Python-${python_version}.tar
+echo Your python has been installed under: ${install_path}
