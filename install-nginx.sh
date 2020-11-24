@@ -4,6 +4,7 @@ command_exists() {
     command -v "$@" > /dev/null 2>&1
 }
 
+
 pre_install_centos() {
     yum -y install  epel-release \
                     gcc                gcc-c++        make             cmake    \
@@ -30,6 +31,7 @@ download_nginx() {
     nginx_version=$1
     curl http://nginx.org/download/nginx-${nginx_version}.tar.gz -o nginx-${nginx_version}.tar.gz
 }
+
 
 download_libmcrypt() {
     libmcrypt_version=$1

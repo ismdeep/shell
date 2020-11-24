@@ -47,7 +47,7 @@ echo "MYSQL_VERSION ${mysql_version}"
 
 cd ${work_dir} && preclean
 cd ${work_dir} && pre_install
-cd ${work_dir} && download_mysql ${mysql_version}
-cd ${work_dir} && extract_mysql ${mysql_version}
-cd ${work_dir} && cmake_mysql ${mysql_version}
-cd ${work_dir} && make_mysql ${mysql_version}
+cd ${work_dir} && download_mysql    ${mysql_version}
+cd ${work_dir} && extract_mysql     ${mysql_version}
+cd ${work_dir} && cmake_mysql       ${mysql_version}
+cd ${work_dir} && make_mysql        ${mysql_version}
