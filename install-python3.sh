@@ -2,13 +2,48 @@
 
 usage_info="Usage: bash install-python3.sh PYTHON_VERSION INSTALL_PATH"
 
+command_exists() {
+    command -v "$@" > /dev/null 2>&1
+}
+
 pre_install_centos() {
+    user="$(id -un 2>/dev/null || true)"
+    sh_c='sh -c'
+    if [ "$user" != 'root' ]; then
+        if command_exists sudo; then
+            sh_c='sudo -E sh -c'
+        elif command_exists su; then
+            sh_c='su -c'
+        else
+            cat >&2 <<-'EOF'
+            Error: this installer needs the ability to run commands as root.
+            We are unable to find either "sudo" or "su" available to make this happen.
+            EOF
+            exit 1
+        fi
+    fi
     yum -y install epel-release gdbm-devel gcc make openssl-devel \
                    sqlite-devel bzip2-devel libffi-devel libuuid-devel \
                    xz-devel ncurses-devel readline-devel tcl-devel tk-devel
 }
 
 pre_install_debian() {
+    user="$(id -un 2>/dev/null || true)"
+
+    sh_c='sh -c'
+    if [ "$user" != 'root' ]; then
+        if command_exists sudo; then
+            sh_c='sudo -E sh -c'
+        elif command_exists su; then
+            sh_c='su -c'
+        else
+            cat >&2 <<-'EOF'
+            Error: this installer needs the ability to run commands as root.
+            We are unable to find either "sudo" or "su" available to make this happen.
+            EOF
+            exit 1
+        fi
+    fi
     apt-get update
     apt-get install -y axel make gcc g++ openssl bzip2 libffi-dev zlib1g-dev \
                          libssl-dev libsqlite3-dev build-essential \
