@@ -1,0 +1,120 @@
+#!/bin/bash
+# install php nginx on centos
+# https://www.cnblogs.com/flywind/p/6019631.html
+PHP_VERSION=5.6.40
+LIBMCRYPT_VERSION=2.5.8
+MHASH_VERSION=0.9.9.9
+MCRYPT_VERSION=2.6.8
+PCRE_VERSION=8.39
+ZLIB_VERSION=1.2.11
+OPENSSL_VERSION=1.1.0b
+NGINX_VERSION=1.15.9
+
+
+# install mhash
+cd /usr/local/src
+axel -n 10 http://download.ismdeep.com/software/linux/centos-php-nginx-packages/mhash-$MHASH_VERSION.tar.gz
+tar -zxvf mhash-$MHASH_VERSION.tar.gz
+cd mhash-$MHASH_VERSION
+./configure
+make && make install
+
+# install mcrypt
+cd /usr/local/src
+axel -n 10 http://download.ismdeep.com/software/linux/centos-php-nginx-packages/mcrypt-$MCRYPT_VERSION.tar.gz
+tar -zxvf mcrypt-$MCRYPT_VERSION.tar.gz
+cd mcrypt-$MCRYPT_VERSION
+./configure
+make && make install
+
+# install PCRE
+cd /usr/local/src
+axel -n 10 http://download.ismdeep.com/software/linux/centos-php-nginx-packages/pcre-$PCRE_VERSION.tar.gz
+tar -zxvf pcre-$PCRE_VERSION.tar.gz
+cd pcre-$PCRE_VERSION
+./configure
+make && make install
+
+# install zlib
+cd /usr/local/src
+axel -n 10 http://download.ismdeep.com/software/linux/centos-php-nginx-packages/zlib-$ZLIB_VERSION.tar.gz
+tar -zxvf zlib-$ZLIB_VERSION.tar.gz
+cd zlib-$ZLIB_VERSION
+./configure
+make && make install
+
+# install ssl
+cd /usr/local/src
+axel -n 10 http://download.ismdeep.com/software/linux/centos-php-nginx-packages/openssl-$OPENSSL_VERSION.tar.gz
+tar -zxvf openssl-$OPENSSL_VERSION.tar.gz
+
+# install nginx
+cd /usr/local/src
+axel -n 10 https://nginx.org/download/nginx-$NGINX_VERSION.tar.gz
+tar -zxvf nginx-$NGINX_VERSION.tar.gz
+cd nginx-$NGINX_VERSION
+
+# add user and usergroup for nginx
+groupadd -r nginx
+useradd -r -g nginx nginx
+
+# configure for nginx to install
+./configure \
+--prefix=/usr/local/nginx \
+--sbin-path=/usr/local/nginx/sbin/nginx \
+--conf-path=/usr/local/nginx/nginx.conf \
+--pid-path=/usr/local/nginx/nginx.pid \
+--user=nginx \
+--group=nginx \
+--with-http_ssl_module \
+--with-http_flv_module \
+--with-http_mp4_module  \
+--with-http_stub_status_module \
+--with-http_gzip_static_module \
+--http-client-body-temp-path=/var/tmp/nginx/client/ \
+--http-proxy-temp-path=/var/tmp/nginx/proxy/ \
+--http-fastcgi-temp-path=/var/tmp/nginx/fcgi/ \
+--http-uwsgi-temp-path=/var/tmp/nginx/uwsgi \
+--http-scgi-temp-path=/var/tmp/nginx/scgi \
+--with-pcre=/usr/local/src/pcre-$PCRE_VERSION \
+--with-zlib=/usr/local/src/zlib-$ZLIB_VERSION \
+--with-openssl=/usr/local/src/openssl-$OPENSSL_VERSION
+make && make install
+
+# /usr/local/nginx
+# install php and php-fpm
+
+yum -y install libxml2-devel openssl-devel curl-devel \
+libjpeg-devel libpng-devel freetype-devel openldap-devel libmcrypt-devel
+
+cd /usr/local/src
+axel -n 10 http://download.ismdeep.com/software/linux/centos-php-nginx-packages/php-$PHP_VERSION.tar.gz
+tar -zvxf php-$PHP_VERSION.tar.gz
+cd php-$PHP_VERSION
+
+# add /usr/local/lib in /etc/ld.so.conf.d/local.conf
+echo /usr/local/lib >> /etc/ld.so.conf.d/local.conf
+
+./configure --prefix=/usr/local/php  --enable-fpm --with-mcrypt \
+    --enable-mbstring --enable-pdo --with-curl --disable-debug  --disable-rpath \
+    --enable-inline-optimization --with-bz2  --with-zlib --enable-sockets \
+    --enable-sysvsem --enable-sysvshm --enable-pcntl --enable-mbregex \
+    --with-mhash --enable-zip --with-pcre-regex --with-mysql --with-mysqli \
+    --with-gd --with-jpeg-dir --with-freetype-dir --enable-calendar
+
+make && make install
+cp php.ini-production /usr/local/php/lib/php.ini
+cd /usr/local/php
+cp etc/php-fpm.conf.default etc/php-fpm.conf
+# vim etc/php-fpm.conf
+# user = www-data
+# group = www-data
+echo user = www-data >> /usr/local/php/etc/php-fpm.conf
+echo group = www-data >> /usr/local/php/etc/php-fpm.conf
+
+groupadd www-data
+useradd -g www-data www-data
+
+# /usr/local/php/sbin/php-fpm
+mkdir -p /var/tmp/nginx/client
+# /usr/local/nginx/sbin/nginx
