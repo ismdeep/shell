@@ -81,22 +81,22 @@ if [ -z ${install_path} ]; then
     exit 1
 fi
 
-# Check sudo
-user="$(id -un 2>/dev/null || true)"
-sh_c='sh -c'
-if [ "$user" != 'root' ]; then
-    if command_exists sudo; then
-        sh_c='sudo -E sh -c'
-    elif command_exists su; then
-        sh_c='su -c'
-    else
-        cat >&2 <<-'EOF'
-            Error: this installer needs the ability to run commands as root.
-            We are unable to find either "sudo" or "su" available to make this happen.
-            EOF
-            exit 1
-    fi
-fi
+# # Check sudo
+# user="$(id -un 2>/dev/null || true)"
+# sh_c='sh -c'
+# if [ "$user" != 'root' ]; then
+#     if command_exists sudo; then
+#         sh_c='sudo -E sh -c'
+#     elif command_exists su; then
+#         sh_c='su -c'
+#     else
+#         cat >&2 <<-'EOF'
+#             Error: this installer needs the ability to run commands as root.
+#             We are unable to find either "sudo" or "su" available to make this happen.
+#             EOF
+#             exit 1
+#     fi
+# fi
 
 case "$lsb_dist" in
     centos )
@@ -113,7 +113,8 @@ build_and_install_python3 ${python_version} ${install_path}
 cd ${work_dir}
 rm -rfv Python-${python_version}
 rm Python-${python_version}.tar
+
 echo 
 echo 
-echo Your python has been installed under: ${install_path}
+echo "Your python has been installed under: ${install_path}"
 echo 
