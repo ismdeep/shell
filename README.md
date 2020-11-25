@@ -1,8 +1,3 @@
-# Shell
-
-
-
----
 
 ## Install Python3 from source code
 
