@@ -15,8 +15,6 @@ Latest Version: `3.7.9`, `3.8.6`, `3.9.0`
 
 ## Install Java SDK ( AdoptOpenJDK )
 
-Latest Version: `1.8`
-
 ```bash
 sh -c "$(curl -fsSL https://shell.ismdeep.com/install-jdk.sh)" - 8 /root/jdk-8
 ```
