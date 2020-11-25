@@ -1,6 +1,6 @@
 # Shell
 
-## Install Python3 on CentOS
+## Install Python3 on CentOS | Debian | Ubuntu
 
 Demo as:
 
