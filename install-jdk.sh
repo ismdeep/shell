@@ -48,11 +48,7 @@ download_jdk() {
         [yY][eE][sS]|[yY])
             filename=`echo ${download_url} | awk -F "/" '{print $NF}'`
             extname=`echo ${filename} | awk -F "." '{print $NF}'`
-            if [ -r /usr/local/bin/axel ]; then
-                /usr/local/bin/axel --header=IE11 -n 16 ${download_url}
-            else
-                curl -S ${download_url} -o ${filename}
-            fi
+            curl -S ${download_url} -o ${filename}
             case $extname in
                 zip )
                     unzip ${filename} -o ${install_path}
