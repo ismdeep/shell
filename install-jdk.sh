@@ -48,7 +48,7 @@ download_jdk() {
         [yY][eE][sS]|[yY])
             filename=`echo ${download_url} | awk -F "/" '{print $NF}'`
             extname=`echo ${filename} | awk -F "." '{print $NF}'`
-            curl -S ${download_url} -o ${filename}
+            curl -S -C - ${download_url} -o ${filename}
             case $extname in
                 zip )
                     unzip ${filename} -o ${install_path}
