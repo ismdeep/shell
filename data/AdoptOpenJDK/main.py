@@ -41,12 +41,11 @@ def get_sub_urls(__url__):
 
 
 def main():
-    start_time_s = time.time()
     get_sub_urls('https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/')
-    end_time_s = time.time()
     files_url_list.sort()
     urls_file = open('urls.txt', 'w')
-    urls_file.writelines(files_url_list)
+    for url in files_url_list:
+        urls_file.write(url + '\n')
     urls_file.close()
 
 
