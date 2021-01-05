@@ -18,3 +18,5 @@ tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04/ | grep "
 tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/solus/images/ | grep -v "\.sha256sum" | sort > solus.txt
 
 tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/ | grep "\.iso" | sort > deepin.txt
+
+tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/fedora/releases/ 2>/dev/null | grep "\.iso" | sort > fedora.txt
