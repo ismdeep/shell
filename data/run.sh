@@ -7,18 +7,14 @@ tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/ | grep -v "\.rpm"
 tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/centos/7/isos/ | grep "\.iso" | sort > centos.txt
 tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/centos/8/isos/ | grep "\.iso" | sort >> centos.txt
 
-exit 0
+tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/ | grep "\.iso" | grep -v "Changes" | sort | grep -v "\.sha256" | sort > opensuse.txt
 
-tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/ opensuse2
-cat opensuse2.txt | grep "\.iso" | grep -v "Changes" > opensuse.txt
-rm opensuse2.txt
+tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/12.04/ | grep "\.iso" | grep -v "\.zsync" | sort > ubuntu.txt
+tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/14.04/ | grep "\.iso" | grep -v "\.zsync" | sort >> ubuntu.txt
+tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/16.04/ | grep "\.iso" | grep -v "\.zsync" | sort >> ubuntu.txt
+tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/18.04/ | grep "\.iso" | grep -v "\.zsync" | sort >> ubuntu.txt
+tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04/ | grep "\.iso" | grep -v "\.zsync" | sort >> ubuntu.txt
 
-tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/12.04/ ubuntu
-tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/14.04/ ubuntu --append
-tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/16.04/ ubuntu --append
-tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/18.04/ ubuntu --append
-tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04/ ubuntu --append
+tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/solus/images/ | grep -v "\.sha256sum" | sort > solus.txt
 
-tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/solus/images/ solus
-
-tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/ deepin
+tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/ | grep "\.iso" | sort > deepin.txt
