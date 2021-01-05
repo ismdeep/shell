@@ -1,0 +1,7 @@
+https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/20.1/MD5SUMS
+https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/20.1/SHA256SUMS
+https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/20.1/deepin-desktop-community-1010-amd64.iso
+https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/20/MD5SUMS
+https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/20/SHA256SUMS
+https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/20/deepin-desktop-community-1002-amd64.iso
+https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/20/deepin-desktop-community-1003-amd64.iso
