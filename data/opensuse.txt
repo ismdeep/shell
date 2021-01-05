@@ -47,6 +47,7 @@ https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/leap/15.3/appliances/
 https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-Rescue-CD-x86_64-Build2.22-Media.iso
 https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-Rescue-CD-x86_64-Media.iso
 https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-aarch64-Build32.4-Media.iso
+https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-aarch64-Build41.2-Media.iso
 https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-aarch64-Current.iso
 https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-aarch64-Media.iso
 https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-ppc64le-Build32.4-Media.iso
