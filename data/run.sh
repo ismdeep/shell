@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-python-list
-cat python.txt | grep -v "\.asc" > python2.txt
-rm python.txt;mv python2.txt python.txt
+python-list | grep -v "\.asc" | grep -v "\.chm" | sort > python.txt
+
+exit 0
 
 tuna-dumper https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/ openjdk
 
