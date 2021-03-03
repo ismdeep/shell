@@ -6,5 +6,7 @@ https://mirrors.tuna.tsinghua.edu.cn/solus/images/4.1/Solus-4.1-Budgie.iso
 https://mirrors.tuna.tsinghua.edu.cn/solus/images/4.1/Solus-4.1-GNOME.iso
 https://mirrors.tuna.tsinghua.edu.cn/solus/images/4.1/Solus-4.1-MATE.iso
 https://mirrors.tuna.tsinghua.edu.cn/solus/images/4.1/Solus-4.1-Plasma.iso
-https://mirrors.tuna.tsinghua.edu.cn/solus/images/SHA256SUMS
-https://mirrors.tuna.tsinghua.edu.cn/solus/images/SHA256SUMS.sign
+https://mirrors.tuna.tsinghua.edu.cn/solus/images/4.2/Solus-4.2-Budgie.iso
+https://mirrors.tuna.tsinghua.edu.cn/solus/images/4.2/Solus-4.2-GNOME.iso
+https://mirrors.tuna.tsinghua.edu.cn/solus/images/4.2/Solus-4.2-MATE.iso
+https://mirrors.tuna.tsinghua.edu.cn/solus/images/4.2/Solus-4.2-Plasma.iso

@@ -287,9 +287,9 @@ https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/15/jre/x64/windows/OpenJDK15U-
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/15/jre/x64/windows/OpenJDK15U-jre_x64_windows_openj9_15.0.2_7_openj9-0.24.0.zip
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/15/jre/x64/windows/OpenJDK15U-jre_x64_windows_openj9_windowsXL_15.0.2_7_openj9-0.24.0.msi
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/15/jre/x64/windows/OpenJDK15U-jre_x64_windows_openj9_windowsXL_15.0.2_7_openj9-0.24.0.zip
-https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/aarch64/linux/OpenJDK8U-jdk_aarch64_linux_hotspot_8u275b01.tar.gz
+https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/aarch64/linux/OpenJDK8U-jdk_aarch64_linux_hotspot_jdk8u282-b08.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/aarch64/linux/OpenJDK8U-jdk_aarch64_linux_openj9_8u282b08_openj9-0.24.0.tar.gz
-https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/arm/linux/OpenJDK8U-jdk_arm_linux_hotspot_8u275b01.tar.gz
+https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/arm/linux/OpenJDK8U-jdk_arm_linux_hotspot_jdk8u282-b08.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/ppc64/aix/OpenJDK8U-jdk_ppc64_aix_hotspot_8u282b08.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/ppc64/aix/OpenJDK8U-jdk_ppc64_aix_openj9_8u282b08_openj9-0.24.0.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/ppc64le/linux/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u282b08.tar.gz
@@ -319,9 +319,9 @@ https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/windows/OpenJDK8U-jd
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/windows/OpenJDK8U-jdk_x64_windows_openj9_8u282b08_openj9-0.24.0.zip
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/windows/OpenJDK8U-jdk_x64_windows_openj9_windowsXL_8u282b08_openj9-0.24.0.msi
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/windows/OpenJDK8U-jdk_x64_windows_openj9_windowsXL_8u282b08_openj9-0.24.0.zip
-https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/aarch64/linux/OpenJDK8U-jre_aarch64_linux_hotspot_8u275b01.tar.gz
+https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/aarch64/linux/OpenJDK8U-jre_aarch64_linux_hotspot_jdk8u282-b08.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/aarch64/linux/OpenJDK8U-jre_aarch64_linux_openj9_8u282b08_openj9-0.24.0.tar.gz
-https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/arm/linux/OpenJDK8U-jre_arm_linux_hotspot_8u275b01.tar.gz
+https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/arm/linux/OpenJDK8U-jre_arm_linux_hotspot_jdk8u282-b08.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/ppc64/aix/OpenJDK8U-jre_ppc64_aix_hotspot_8u282b08.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/ppc64/aix/OpenJDK8U-jre_ppc64_aix_openj9_8u282b08_openj9-0.24.0.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/ppc64le/linux/OpenJDK8U-jre_ppc64le_linux_hotspot_8u282b08.tar.gz
