@@ -8,3 +8,9 @@ https://mirrors.tuna.tsinghua.edu.cn/centos/8/isos/ppc64le/CentOS-8.3.2011-ppc64
 https://mirrors.tuna.tsinghua.edu.cn/centos/8/isos/ppc64le/CentOS-8.3.2011-ppc64le-dvd1.iso
 https://mirrors.tuna.tsinghua.edu.cn/centos/8/isos/x86_64/CentOS-8.3.2011-x86_64-boot.iso
 https://mirrors.tuna.tsinghua.edu.cn/centos/8/isos/x86_64/CentOS-8.3.2011-x86_64-dvd1.iso
+https://mirrors.tuna.tsinghua.edu.cn/centos/8/isos/aarch64/CentOS-8.3.2011-aarch64-boot.iso
+https://mirrors.tuna.tsinghua.edu.cn/centos/8/isos/aarch64/CentOS-8.3.2011-aarch64-dvd1.iso
+https://mirrors.tuna.tsinghua.edu.cn/centos/8/isos/ppc64le/CentOS-8.3.2011-ppc64le-boot.iso
+https://mirrors.tuna.tsinghua.edu.cn/centos/8/isos/ppc64le/CentOS-8.3.2011-ppc64le-dvd1.iso
+https://mirrors.tuna.tsinghua.edu.cn/centos/8/isos/x86_64/CentOS-8.3.2011-x86_64-boot.iso
+https://mirrors.tuna.tsinghua.edu.cn/centos/8/isos/x86_64/CentOS-8.3.2011-x86_64-dvd1.iso

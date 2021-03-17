@@ -16,3 +16,15 @@ https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/18.04/ubuntu-18.04.5-deskto
 https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/18.04/ubuntu-18.04.5-live-server-amd64.iso
 https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04/ubuntu-20.04.2-live-server-amd64.iso
 https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04/ubuntu-20.04.2.0-desktop-amd64.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/14.04/ubuntu-14.04.6-desktop-amd64.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/14.04/ubuntu-14.04.6-desktop-i386.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/14.04/ubuntu-14.04.6-server-amd64.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/14.04/ubuntu-14.04.6-server-i386.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/16.04/ubuntu-16.04.6-desktop-i386.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/16.04/ubuntu-16.04.6-server-i386.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/16.04/ubuntu-16.04.7-desktop-amd64.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/16.04/ubuntu-16.04.7-server-amd64.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/18.04/ubuntu-18.04.5-desktop-amd64.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/18.04/ubuntu-18.04.5-live-server-amd64.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04/ubuntu-20.04.2-live-server-amd64.iso
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04/ubuntu-20.04.2.0-desktop-amd64.iso
