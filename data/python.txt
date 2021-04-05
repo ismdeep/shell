@@ -793,6 +793,13 @@ https://www.python.org/ftp/python/3.8.8/python-3.8.8-embed-amd64.zip
 https://www.python.org/ftp/python/3.8.8/python-3.8.8-embed-win32.zip
 https://www.python.org/ftp/python/3.8.8/python-3.8.8-macosx10.9.pkg
 https://www.python.org/ftp/python/3.8.8/python-3.8.8.exe
+https://www.python.org/ftp/python/3.8.9/Python-3.8.9.tar.xz
+https://www.python.org/ftp/python/3.8.9/Python-3.8.9.tgz
+https://www.python.org/ftp/python/3.8.9/python-3.8.9-amd64.exe
+https://www.python.org/ftp/python/3.8.9/python-3.8.9-embed-amd64.zip
+https://www.python.org/ftp/python/3.8.9/python-3.8.9-embed-win32.zip
+https://www.python.org/ftp/python/3.8.9/python-3.8.9-macosx10.9.pkg
+https://www.python.org/ftp/python/3.8.9/python-3.8.9.exe
 https://www.python.org/ftp/python/3.9.0/Python-3.9.0.tar.xz
 https://www.python.org/ftp/python/3.9.0/Python-3.9.0.tgz
 https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64-webinstall.exe
@@ -818,3 +825,11 @@ https://www.python.org/ftp/python/3.9.2/python-3.9.2-embed-win32.zip
 https://www.python.org/ftp/python/3.9.2/python-3.9.2-macos11.pkg
 https://www.python.org/ftp/python/3.9.2/python-3.9.2-macosx10.9.pkg
 https://www.python.org/ftp/python/3.9.2/python-3.9.2.exe
+https://www.python.org/ftp/python/3.9.4/Python-3.9.4.tar.xz
+https://www.python.org/ftp/python/3.9.4/Python-3.9.4.tgz
+https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe
+https://www.python.org/ftp/python/3.9.4/python-3.9.4-embed-amd64.zip
+https://www.python.org/ftp/python/3.9.4/python-3.9.4-embed-win32.zip
+https://www.python.org/ftp/python/3.9.4/python-3.9.4-macos11.pkg
+https://www.python.org/ftp/python/3.9.4/python-3.9.4-macosx10.9.pkg
+https://www.python.org/ftp/python/3.9.4/python-3.9.4.exe

@@ -1,3 +1,4 @@
 https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/20.1/deepin-desktop-community-1010-amd64.iso
+https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/20.2/deepin-desktop-community-20.2-amd64.iso
 https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/20/deepin-desktop-community-1002-amd64.iso
 https://mirrors.tuna.tsinghua.edu.cn/deepin-cd/20/deepin-desktop-community-1003-amd64.iso
