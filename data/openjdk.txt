@@ -282,6 +282,7 @@ https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/15/jre/x64/windows/OpenJDK15U-
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jdk/aarch64/linux/OpenJDK16U-jdk_aarch64_linux_hotspot_16.0.1_9.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jdk/arm/linux/OpenJDK16U-jdk_arm_linux_hotspot_16.0.1_9.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jdk/ppc64/aix/OpenJDK16U-jdk_ppc64_aix_hotspot_16.0.1_9.tar.gz
+https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jdk/ppc64le/linux/OpenJDK16U-jdk_ppc64le_linux_hotspot_16.0.1_9.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jdk/ppc64le/linux/OpenJDK16U-jdk_ppc64le_linux_openj9_16.0.1_9_openj9-0.26.0.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jdk/s390x/linux/OpenJDK16U-jdk_s390x_linux_hotspot_16.0.1_9.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jdk/s390x/linux/OpenJDK16U-jdk_s390x_linux_openj9_16.0.1_9_openj9-0.26.0.tar.gz
@@ -293,6 +294,8 @@ https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jre/ppc64/aix/OpenJDK16U-jr
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jre/ppc64le/linux/OpenJDK16U-jre_ppc64le_linux_openj9_16.0.1_9_openj9-0.26.0.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jre/x32/windows/OpenJDK16U-jre_x86-32_windows_hotspot_16.0.1_9.msi
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jre/x32/windows/OpenJDK16U-jre_x86-32_windows_hotspot_16.0.1_9.zip
+https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jre/x64/mac/OpenJDK16U-jre_x64_mac_openj9_16.0.1_9_openj9-0.26.0.pkg
+https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jre/x64/mac/OpenJDK16U-jre_x64_mac_openj9_16.0.1_9_openj9-0.26.0.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jre/x64/windows/OpenJDK16U-jre_x64_windows_hotspot_16.0.1_9.msi
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/16/jre/x64/windows/OpenJDK16U-jre_x64_windows_hotspot_16.0.1_9.zip
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/aarch64/linux/OpenJDK8U-jdk_aarch64_linux_openj9_8u292b10_openj9-0.26.0.tar.gz
@@ -306,6 +309,7 @@ https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/s390x/linux/OpenJDK8U-jd
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/sparcv9/solaris/OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u282b08.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x32/windows/OpenJDK8U-jdk_x86-32_windows_hotspot_8u292b10.msi
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x32/windows/OpenJDK8U-jdk_x86-32_windows_hotspot_8u292b10.zip
+https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x32/windows/OpenJDK8U-jdk_x86-32_windows_openj9_8u292b10_openj9-0.26.0.msi
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/linux/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/linux/OpenJDK8U-jdk_x64_linux_openj9_linuxXL_8u282b08_openj9-0.24.0.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/mac/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.pkg
@@ -333,6 +337,7 @@ https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/x32/windows/OpenJDK8U-jr
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/x32/windows/OpenJDK8U-jre_x86-32_windows_hotspot_8u292b10.zip
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/x32/windows/OpenJDK8U-jre_x86-32_windows_openj9_8u292b10_openj9-0.26.0.msi
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/x32/windows/OpenJDK8U-jre_x86-32_windows_openj9_8u292b10_openj9-0.26.0.zip
+https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/x64/linux/OpenJDK8U-jre_x64_linux_openj9_8u292b10_openj9-0.26.0.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/x64/linux/OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u282b08_openj9-0.24.0.tar.gz
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/x64/mac/OpenJDK8U-jre_x64_mac_openj9_8u292b10_openj9-0.26.0.pkg
 https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jre/x64/mac/OpenJDK8U-jre_x64_mac_openj9_8u292b10_openj9-0.26.0.tar.gz
