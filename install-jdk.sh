@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-package_url_list='https://shell.ismdeep.com/data/AdoptOpenJDK.txt'
+package_url_list='https://shell.ismdeep.com/data/openjdk.txt'
 WORK_DIR=`pwd`
 jdk_version=$1
 install_path=$2
