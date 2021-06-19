@@ -21,3 +21,10 @@ sh -c "$(curl -fsSL https://shell.ismdeep.com/install-jdk.sh)" - 8 /root/jdk-8
 
 Available Version: `8`, `9`, `10`, `11`, `12`, `13`, `14`, `15`
 
+
+
+## Install Go
+
+```bash
+echo just install go
+```
